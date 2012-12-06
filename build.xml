@@ -8,7 +8,7 @@
       <sf:deploy username="${sf.username}" 
                  password="${sf.password}" 
                  serverurl="${sf.serverurl}"            
-                 deployRoot="src"
+                 deployRoot="${sf.deployRoot}"
                  allowMissingFiles="true" />
     </target>
 
